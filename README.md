@@ -39,6 +39,33 @@ line.notifySticker('<Sticker Package ID>','<Sticker ID>','<Message>')
 line.notifyImageURL('<Image URL>','<Message>')
 ```
 
+# Example Code
+```python
+# Import Library
+from linenotify import LineNotify
+from network import WLAN,STA_IF
+
+# Network Setup
+ssid = '<ssid>'
+password = '<password>'
+wlan = WLAN(STA_IF)
+wlan.active(True)
+print('Connecting...')
+wlan.connect(ssid,password)
+while not wlan.isconnected():
+    pass
+print(wlan.ifconfig())
+
+# Set Line Token 
+line = LineNotify('<token>')
+# Notify text message 
+line.notify('Hello World!')
+# Notify sticker with message
+line.notifySticker(3,240,'Nice Sticker')
+# Notify image from URL with message
+line.notifyImageURL('https://static.wikia.nocookie.net/chainsaw-man/images/1/1b/Pochita.PNG','Pochita')
+
+```
 
 
 
