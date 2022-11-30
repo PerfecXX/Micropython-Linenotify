@@ -1,5 +1,4 @@
 from urequests import post
-from network import WLAN
 
 __version__ = '0.0.1'
 __author__ = 'Teeraphat Kullanankanjana'
@@ -52,6 +51,7 @@ class LineNotify():
         """
         payload = 'message={}'.format(msg).encode('utf-8')
         httpCode = self.__sendRequest(payload)
+        return httpCode
         
     def notifySticker(self,packageID,stickerID,msg='\n'):
         """
@@ -72,6 +72,7 @@ class LineNotify():
         """
         payload = 'message={}&stickerPackageId={}&stickerId={}'.format(msg,packageID,stickerID).encode('utf-8')
         httpCode = self.__sendRequest(payload)
+        return httpCode
         
     def notifyImageURL(self,url,msg='\n'):
         """
@@ -89,5 +90,7 @@ class LineNotify():
         500: Failure due to server error
         Other: Processed over time or stopped
         """
-        self.__msg = 'message={}&imageThumbnail={}&imageFullsize={}'.format(msg,url,url).encode('utf-8')
+        payload = 'message={}&imageThumbnail={}&imageFullsize={}'.format(msg,url,url).encode('utf-8')
         httpCode = self.__sendRequest(payload)
+        return httpCode
+
