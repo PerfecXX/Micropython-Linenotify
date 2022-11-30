@@ -66,6 +66,9 @@ line.notifySticker(3,240,'Nice Sticker')
 line.notifyImageURL('https://static.wikia.nocookie.net/chainsaw-man/images/1/1b/Pochita.PNG','Pochita')
 
 ```
+
+![](https://github.com/PerfecXX/MicroPython_LineNotify/blob/main/doc/image/8_result.png?raw=true)
+
 # Reference 
 
 [https://developers.line.biz/en/docs/messaging-api/sticker-list/](https://developers.line.biz/en/docs/messaging-api/sticker-list/)
