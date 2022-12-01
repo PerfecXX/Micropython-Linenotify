@@ -19,7 +19,12 @@ Enter your **Token Name** then select **chat** or **group **.
 Click **Generate Token**, and the token will be generated.
 ![](https://github.com/PerfecXX/MicroPython_LineNotify/blob/main/doc/image/6_copyToken.png?raw=true)
 
-# Usage 
+# Usage
+- Import Library 
+```python
+from linenotify import LineNotify
+```
+
 - Create Instance and set token
 ```python
 line = LineNotify('<token>')
