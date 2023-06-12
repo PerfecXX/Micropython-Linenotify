@@ -13,7 +13,7 @@ At the top-right dropdown menu, select **my page** .
 ![](https://github.com/PerfecXX/MicroPython_LineNotify/blob/main/doc/image/3_selectMyPage.png?raw=true)
 Scroll down the browser window to find **Generate Token**.
 ![](https://github.com/PerfecXX/MicroPython_LineNotify/blob/main/doc/image/4_GenerateToken.png?raw=true)
-Enter your **Token Name** then select **chat** or **group **.
+Enter your **Notify Name** then select **chat** or **group**.
 ![](https://github.com/PerfecXX/MicroPython_LineNotify/blob/main/doc/image/5_GenToken.png?raw=true)
 
 Click **Generate Token**, and the token will be generated.
