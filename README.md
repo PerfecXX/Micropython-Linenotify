@@ -1,4 +1,8 @@
 # Micropython-linenotify
+
+[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/yourusername/netpie-python-library)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 It is a MicroPython library for sending notifications to Line Notify,which can be used with ESP8266 and ESP32.
 
 Can send both text messages, stickers and images.
