@@ -10,7 +10,7 @@ Before you receive any messages, you need to install this library on your device
 by choosing one of the following methods:
 
 1. Manual upload
-   - You can install this library by simply uploading linenotify.py to your device.
+   - You can install this library by simply uploading **linenotify.py** to your device.
 
 2. Package Management in Thonny IDE
    - If you are using the Thonny IDE, you can go to Tools > Manage Packages.
